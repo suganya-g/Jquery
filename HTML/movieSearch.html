@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Search using jQuery</title>
+	<!--font family for the texts included in the file-->
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<!--my custom style sheet-->
+	<link href="./../CSS/style.css" rel="stylesheet">
+</head>
+<body>
+	<!--my page header scroll-->
+	<marquee style="Background-color:pink;"><h1>MOVIE4YOU.COM</h1></marquee>
+	<!--my main container-->
+	<div id="test-list">
+		<!--heading for the process to be done-->
+        <h1>Search your movie here...</h1>
+        <!--form input to search the title-->
+        <p>Enter the movie title : <input type="text" id="title"></p>
+        <!--button to search the movie-->
+        <button id="search-movie">Search</button>
+        <!--list which contains the filtered movies-->
+        <ul id="movies">
+        </ul>
+        <!--container for pagination-->
+        <div id="pagin"></div>
+    </div>
+    <!--jQuery and script files-->
+    <script src="./../JQUERY/jquery-3.1.1.min.js"></script>
+    <script src="./../JS/main.js"></script>
+</body>
+</html>
